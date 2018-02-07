@@ -1,0 +1,8 @@
+FROM golang:1.9.3
+
+WORKDIR /
+
+COPY main.go .
+
+RUN CGO_ENABLED=0 go build -o hello -a -ldflags '-s' main.go
+
