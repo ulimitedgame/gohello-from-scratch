@@ -1,4 +1,4 @@
-FROM golang:1.9.3 as hellobuilder
+FROM golang:1.10 as hellobuilder
 
 WORKDIR /
 
