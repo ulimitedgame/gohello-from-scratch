@@ -29,7 +29,7 @@ func main() {
 		return
 	}()
 
-	log.Printf("Service started with golang:%s, serving at %s", goVersion, addr)
+	log.Printf("update Service started with golang:%s, serving at %s", goVersion, addr)
 
 	for {
 		select {
